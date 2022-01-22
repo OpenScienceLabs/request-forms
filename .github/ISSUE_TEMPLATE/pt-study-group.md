@@ -1,7 +1,7 @@
 ---
-name: Forms to create a Study Group
-about: Fill in this form to create a Study Group on Discord Server
-title: 01/22/22 - Solicitação para criação de um Grupo de Estudos - Open Science Labs
+name: New Study Group Request
+about: Request Form for the creation of a new Study Group on OSL Discord
+title: "[DATE]: [FEATURE NAME] <STUDY GROUP NAME>" 
 labels: study groups, discord 
 assignees: luabida
 ---
