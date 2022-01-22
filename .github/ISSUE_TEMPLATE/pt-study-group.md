@@ -1,12 +1,10 @@
 ---
-name: New Study Group Request
-about: Request Form for the creation of a new Study Group on OSL Discord
-title: "[DATE]: [FEATURE NAME] <STUDY GROUP NAME>" 
+name: PT: Solicitação de criação de grupo de estudos
+about: Preencha essa issue para solicitar a criação de um grupo de estudos.
+title: "[YYYY-MM-DD]: [Nome do grupo de estudo]" 
 labels: study groups, discord 
 assignees: luabida
 ---
-
-[![Forms](https://www.muz.ifsuldeminas.edu.br/images/2019/02/oficina_google/1.png)](https://docs.google.com/forms/d/e/1FAIpQLSdfd1ZzbPKmZ0aWaAnfnvY9aW2iXkz1pTzyvuOm1gcKczwafQ/viewform?usp=sf_link)
 
 # Solicitação para criação de um Grupo de Estudos - _Open Science Labs_
 
@@ -22,7 +20,7 @@ assignees: luabida
 
 - Os materiais apresentados não podem ser provenientes de pirataria, plataformas com assinatura ou conter conteúdo inapropriado, ofensivo ou desrespeitoso.
 
-# Formulário
+## Formulário
 
 ### Qual o Discord do(s) tutor(es) do Grupo de Estudos?
 > Exemplo: xmnlab#6946 & esloch#7383
@@ -42,5 +40,9 @@ assignees: luabida
 
 ### Qual é o objetivo/motivação para a criação do Grupo de Estudos?
 > Existe alguma meta que almeja alcançar com os participantes ou serão apenas encontros descontraídos sobre certo assunto? 
+
+
 > Você tem experiência em algum assunto e deseja compartilhá-la ou a proposta é aprender junto com os participantes do grupo?
+
+
 > Descreva sobre como pretende abordar os encontros e quais serão as expectativas para o grupo.
