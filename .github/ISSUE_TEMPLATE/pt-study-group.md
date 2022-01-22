@@ -1,3 +1,11 @@
+---
+name: Forms to create a Study Group
+about: Fill in this form to create a Study Group on Discord Server
+title: 01/22/22 - Solicitação para criação de um Grupo de Estudos - Open Science Labs
+labels: study groups, discord 
+assignees: luabida
+---
+
 [![Forms](https://www.muz.ifsuldeminas.edu.br/images/2019/02/oficina_google/1.png)](https://docs.google.com/forms/d/e/1FAIpQLSdfd1ZzbPKmZ0aWaAnfnvY9aW2iXkz1pTzyvuOm1gcKczwafQ/viewform?usp=sf_link)
 
 # Solicitação para criação de um Grupo de Estudos - _Open Science Labs_
