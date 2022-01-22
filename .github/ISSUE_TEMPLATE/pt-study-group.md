@@ -1,6 +1,6 @@
 ---
-name: [PT] Solicitação de criação de grupo de estudos
-about: Preencha essa issue para solicitar a criação de um grupo de estudos.
+name: "[PT] Solicitação de criação de grupo de estudos"
+about: "Preencha essa issue para solicitar a criação de um grupo de estudos."
 title: "[YYYY-MM-DD]: [Nome do grupo de estudo]" 
 labels: study groups, discord 
 assignees: luabida
