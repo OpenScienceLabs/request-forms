@@ -2,7 +2,7 @@
 
 # Solicitação para criação de um Grupo de Estudos - _Open Science Labs_
 
-## **Regras**
+## Regras
 
 - As regras a seguir são aplicadas à todos os Grupos de Estudos e o envio do formulário pressupõe que você leu, entendeu e está de acordo com todos os tópicos; o desrespeito à qualquer regra poderá acarretar no encerramento do Grupo sem aviso prévio. Qualquer dúvida, sugestão ou crítica deverá ser encaminhada aos gestores dos Grupos de Estudo no Discord.
 
@@ -14,7 +14,7 @@
 
 - Os materiais apresentados não podem ser provenientes de pirataria, plataformas com assinatura ou conter conteúdo inapropriado, ofensivo ou desrespeitoso.
 
-# **Formulário**
+# Formulário
 
 ### Qual o Discord do(s) tutor(es) do Grupo de Estudos?
 > Exemplo: xmnlab#6946 & esloch#7383
