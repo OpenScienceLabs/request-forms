@@ -1,9 +1,9 @@
 ---
 name: Convocatoria para Colaboración
 about: Request Form for the participation of the OSL Community
-title: "[DATE]: [FEATURE NAME]" 
+title: "REQUEST NEW CONTRIBUTOR: [CONTRIBUTOR NAME]" 
 labels: subscription, new member
-assignees: luabida
+assignees: petrizzo, eunrod16, EverVino, ibianka
 ---
 
 # ¡Convocatoria para Colaboración!
