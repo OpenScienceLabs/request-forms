@@ -23,5 +23,8 @@ Si quieres ser mentore/a en nuestra comunidad, llene el siguiente formulario:
 **URL del perfil en Twitter**:
 **URL del perfil en GitHub**:
 
-He leído el Código de Conducta de OSL (https://opensciencelabs.github.io/mentoring-guideline/coc-es.html) y estoy de acuerdo`*`:
+He leído el [Código de Conducta](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo`*`:
+- [ ] Sí
+
+He leído la [Guía de Mentorías](https://opensciencelabs.github.io/mentoring/guide-en.html)`*`:
 - [ ] Sí
