@@ -16,15 +16,15 @@ Si quieres ser mentore/a en nuestra comunidad, llene el siguiente formulario:
 (*) Obligatorio.
 ```
 
-**E-mail`*`**: 
-**Nombre completo`*`**: 
-**Área de interés para las mentorías`*`**:
-**URL del perfil en Linkedin**:
-**URL del perfil en Twitter**:
-**URL del perfil en GitHub**:
+- **E-mail`*`**: 
+- **Nombre completo`*`**: 
+- **Áreas de interés para las mentorías`*`**:
+- **URL del perfil en Linkedin**: 
+- **URL del perfil en Twitter**: 
+- **URL del perfil en GitHub**: 
 
-He leído el [Código de Conducta](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo`*`:
+He leído el [Código de Conducta](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo`*`: 
 - [ ] Sí
 
-He leído la [Guía de Mentorías](https://opensciencelabs.github.io/mentoring/guide-en.html)`*`:
+He leído la [Guía de Mentorías](https://opensciencelabs.github.io/mentoring/guide-en.html)`*`: 
 - [ ] Sí
