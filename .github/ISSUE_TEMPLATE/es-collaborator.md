@@ -2,7 +2,7 @@
 name: Convocatoria para Colaboración
 about: Request Form for the participation of the OSL Community
 title: "REQUEST NEW CONTRIBUTOR: [CONTRIBUTOR NAME]" 
-labels: subscription, new member
+labels: new-collaborator
 assignees: petrizzo, eunrod16, EverVino, ibianka
 ---
 

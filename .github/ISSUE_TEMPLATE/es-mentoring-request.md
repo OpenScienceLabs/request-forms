@@ -1,16 +1,16 @@
 ---
-name: Convocatoria para Mentores/as
-about: Request Form for mentors
-title: "New Mentor: [CONTRIBUTOR NAME]" 
-labels: new-mentor
+name: Solicitud de Mentoría
+about: Mentoring request
+title: "Solicitud de mentoría: [Nombre del/a Solicitante]" 
+labels: mentoring-request
 assignees: petrizzo, eunrod16, EverVino, ibianka, xmnlab
 ---
 
-# ¡Convocatoria para Mentores!
+# ¡Solicitud de mentorías!
 
 Open Science Labs (OSL) es una comunidad que ofrece un espacio abierto para compartir, aprender y enseñar temas relacionados a Ciencia Abierta y Tecnologías computacionales (Python, C++, JavaScript, Machine learning, DevOps, etc) al público de Latinoamérica, pero no restringido a ello. Nuestra comunidad no intenta crear la rueda, sino que queremos integrar con otras comunidades y unir esfuerzos. 
 
-Si quieres ser mentore/a en nuestra comunidad, llene el siguiente formulario:
+Si quieres solicitar mentoría, llene el siguiente formulario:
 
 ```{note}
 (*) Obligatorio.
@@ -18,7 +18,7 @@ Si quieres ser mentore/a en nuestra comunidad, llene el siguiente formulario:
 
 - **E-mail`*`**: 
 - **Nombre completo`*`**: 
-- **Áreas de interés para las mentorías`*`**:
+- **Áreas de interés para la mentoría`*`**:
 - **URL del perfil en Linkedin**: 
 - **URL del perfil en Twitter**: 
 - **URL del perfil en GitHub**: 
