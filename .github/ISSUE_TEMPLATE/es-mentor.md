@@ -22,6 +22,9 @@ Si quieres ser mentore/a en nuestra comunidad, llene el siguiente formulario:
 - **URL del perfil en Linkedin**: 
 - **URL del perfil en Twitter**: 
 - **URL del perfil en GitHub**: 
+- **URL de una foto de perfil (será usada para la página de mentores/as)**:
+
+**Bio (resumen sobre ti, similar a uno publicado en Linkedin o CV):**
 
 He leído el [Código de Conducta](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo`*`: 
 - [ ] Sí
