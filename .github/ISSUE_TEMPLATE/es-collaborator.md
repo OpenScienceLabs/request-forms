@@ -38,7 +38,7 @@ Si quieres colaborar a nuestra comunidad llene el formulario a seguir:
 - **URL del perfil en Linkedin**: 
 - **URL del perfil en Twitter**: 
 - **URL del perfil en GitHub**:
-- **Bio (una descripción sobre ti, similar a la usada en Linkdin o en tu CV)**: 
+- **Bio (una descripción sobre ti, similar a la usada en Linkdin o en tu CV)`*`**: 
 
-### He leído el Código de Conducta de OSL (https://opensciencelabs.github.io/mentoring-guideline/coc-es.html) y estoy de acuerdo*
+**He leído el Código de Conducta de OSL (https://opensciencelabs.github.io/mentoring-guideline/coc-es.html) y estoy de acuerdo`*`**:
 - [ ] Sí
