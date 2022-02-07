@@ -6,9 +6,7 @@ labels: mentoring-request
 assignees: petrizzo, eunrod16, EverVino, ibianka, xmnlab
 ---
 
-# ¡Solicitud de mentorías!
-
-Open Science Labs (OSL) es una comunidad que ofrece un espacio abierto para compartir, aprender y enseñar temas relacionados a Ciencia Abierta y Tecnologías computacionales (Python, C++, JavaScript, Machine learning, DevOps, etc) al público de Latinoamérica, pero no restringido a ello. Nuestra comunidad no intenta crear la rueda, sino que queremos integrar con otras comunidades y unir esfuerzos. 
+# ¡Requerimiento de mentorías!
 
 Si quieres solicitar mentoría, llene el siguiente formulario:
 
