@@ -1,5 +1,5 @@
-name: Convocatoria a Mentores/as
-description: Request Form for mentors
+name: Aplicar para ser Mentores/as en OSL
+description: Request Form for new mentors
 title: "New Mentor: <INFORME TU NOMBRE AQUÍ>"
 labels: [new-mentor]
 assignees: EverVino, xmnlab
