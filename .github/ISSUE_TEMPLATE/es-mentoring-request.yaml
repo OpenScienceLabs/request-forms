@@ -1,0 +1,71 @@
+name: Solicitud de Mentoría
+description: Mentoring request
+title: "Solicitud de mentoría: <INFORME TU NOMBRE AQUÍ>"
+labels: [mentoring-request]
+assignees: EverVino, xmnlab
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Si quieres solicitar mentoría, por favor, llene este formulário.
+        Notas:
+        - nuestra comunidad está en discord:  http://discord.opensciencelabs.org
+
+  - type: input
+    id: email
+    attributes:
+      label: E-mail
+      description: E-mail
+      placeholder: ej. email@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: name-full
+    attributes:
+      label: Nombre Completo
+      description: Nombre Completo
+    validations:
+      required: true
+
+  - type: input
+    id: url-linkedin
+    attributes:
+      label: URL perfil Linkedin
+      description: URL del perfil en Linkedin
+    validations:
+      required: false
+
+  - type: input
+    id: url-twitter
+    attributes:
+      label: URL perfil Twitter
+      description: URL del perfil en Twitter
+    validations:
+      required: false
+
+  - type: input
+    id: url-github
+    attributes:
+      label: URL perfil GitHub
+      description: URL del perfil en GitHub
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: coc-accepting
+    attributes:
+      label: Código de Conducta
+      description: Aceptar Código de Conducta
+      options:
+        - label: He leído el [Código de Conducta](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo
+          required: true
+
+  - type: checkboxes
+    id: mentoring-guide-reading
+    attributes:
+      label: Guía de Mentorías
+      description: Leer guía de mentorías
+      options:
+        - label: He leído la [Guía de Mentorías](https://opensciencelabs.github.io/mentoring/guide-en.html)
+          required: true
