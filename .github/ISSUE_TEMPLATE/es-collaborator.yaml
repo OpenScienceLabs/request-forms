@@ -1,5 +1,5 @@
 name: Aplicar para ser Colaborador/a
-about: Application form to request to be a collaborator in OSL
+description: Application form to request to be a collaborator in OSL
 title: "NEW CONTRIBUTOR: <INFORME TU NOMBRE AQUÍ>"
 labels: [new-collaborator]
 assignees: EverVino, xmnlab
@@ -67,9 +67,16 @@ body:
       required: true
 
   - type: input
+    id: languages
     attributes:
       label: Idiomas
       description: Informe los idiomas que sabes
+      multiple: true
+      options:
+        - Español
+        - Inglés
+        - Portugués
+        - Francés
     validations:
       required: true
 
@@ -82,7 +89,7 @@ body:
       required: true
 
   - type: textarea
-    id: bio
+    id: why
     attributes:
       label: ¿Por qué quiero colaborar a la comunidad OSL?
       description: resumen sobre porqué quieres colaborar a la comunidad OSL
