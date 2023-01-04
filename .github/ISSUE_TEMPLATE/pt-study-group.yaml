@@ -1,0 +1,125 @@
+name: "[PT] Solicitação de criação de grupo de estudos"
+description: "Preencha essa issue para solicitar a criação de um grupo de estudos."
+title: "[YYYY-MM-DD]: [Nome do grupo de estudo]" 
+labels: [study-group]
+assignees: luabida
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nós da Open Science Labs agradecemos pela sua iniciativa em criar um Grupo de Estudos e buscar enriquecer a comunidade Open Source a partir da OSL. Conte com nosso suporte para esta jornada de ensino!
+
+        Para aplicar para criar um Grupo de Estudos em nossa comunidade, por favor, leia atentamente este formulário.
+
+        **Notas**:
+        - nossa comunidade está centralizada no Discord: https://opensciencelabs.org/discord
+        - o calendário de atividades da OSL pode ser encontrado no link: https://opensciencelabs.org/calendar
+
+        # Solicitação para criação de um Grupo de Estudos - _Open Science Labs_
+
+        ## Regras
+
+        - As regras a seguir são aplicadas à todos os Grupos de Estudos e o envio do formulário pressupõe que você leu, entendeu e está de acordo com todos os tópicos; o desrespeito à qualquer regra poderá acarretar no encerramento do Grupo sem aviso prévio. Qualquer dúvida, sugestão ou crítica deverá ser encaminhada aos gestores dos Grupos de Estudo no Discord.
+
+        - Todas as perguntas do formulário devem ser respondidas corretamente e devem corresponder ao Grupo de Estudos que deseja criar, qualquer discrepância entre as respostas e os encontros são passíveis de encerramente do mesmo. Caso queira modificar alguma informação, como alterar o dia dos encontros, entrar em contato prévio com os gestores.
+
+        - Os tutores estabelecidos no formulário têm total responsabilidade pelo Grupo de Estudos e devem gerir os encontros com respeito e inclusão. O ingresso das pessoas ao Grupo é aberto à todos que gostariam de participar e nenhuma limitação pode ser imposta aos participantes.
+
+        - As datas definidas devem ser cumpridas e o cancelamento/adiamento de um dos horários deve ser comunicado previamente aos participantes do Grupo de Estudos.
+
+        - Os materiais apresentados não podem ser provenientes de pirataria, plataformas com assinatura ou conter conteúdo inapropriado, ofensivo ou desrespeitoso.
+
+        ## Formulário
+
+  - type: input
+    id: email
+    attributes:
+      label: E-mail
+      description: E-mail
+      placeholder: email@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: name-full
+    attributes:
+      label: Nome Completo
+      description: Nome Completo
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: languages
+    attributes:
+      label: Idiomas
+      description: Informe o(s) idioma(s) principal(is) do Grupo de Estudos
+      multiple: true
+      options:
+        - Español
+        - Français
+        - English
+        - Português
+    validations:
+      required: true
+      
+  - type: input
+    id: subject
+    attributes:
+      label: Qual será o assunto abordado nos encontros?
+      description: Descreva em poucas palavras qual será o assunto abordado nos encontros
+      placeholder: "Exemplo: Introdução ao Matplotlib - Python"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: why
+    attributes:
+      label: Motivação e Objetivos
+      description: Conte um pouco sobre a iniciativa de criar este Grupo de Estudos, quais objetivos gostaria de atingir, qual o nível necessário para um bom acompanhamento das aulas em grupo, que tópicos deseja abordar ao longo das aulas, etc
+    validations:
+      required: true
+
+  - type: input
+    id: discord
+    attributes:
+      label: Discord
+      description: Qual o Discord do(s) tutor(es) do Grupo de Estudos?
+      placeholder: "Exemplo: xmnlab#6946 & luabida#5719"
+    validations:
+      required: true
+
+  - type: input
+    id: meetings-ini
+    attributes:
+      label: Dates
+      description: Data de início do Grupo de Estudos
+      placeholder: "Exemplo: 04/01/2023"
+    validations:
+      required: true
+      
+  - type: input
+    id: meetings-dayofweek
+    attributes:
+      label: Dates
+      description: Em qual(is) dia(s) da semana haverá encontro(s)?
+      placeholder: "Exemplo: Seg, Qua, Sex"
+    validations:
+      required: true
+
+  - type: input
+    id: meetings-time
+    attributes:
+      label: Dates
+      description: Qual será o horário dos encontros + timezone?
+      placeholder: "Exemplo: 17:30 (GMT-3)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: coc-accepting
+    attributes:
+      label: Código de Conduta
+      description: Confirma que leu e aceita o Código de Conduta da Open Science Labs?
+      options:
+        - label: Li o [Código de Conduta](https://opensciencelabs.github.io/coc/coc-es.html) e estou de acordo
+          required: true
