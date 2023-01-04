@@ -78,10 +78,25 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
+    id: languages
     attributes:
-      label: Idiomas disponible para las mentorías
-      description: Informe los idiomas en los cuales puedes dar las mentorías
+      label: Idiomas
+      description: Informe los idiomas en los cuales estés a gusto de dar mentorías
+      multiple: true
+      options:
+        - Español
+        - Inglés
+        - Portugués
+        - Francés
+    validations:
+      required: true
+
+  - type: input
+    id: spots-left
+    attributes:
+      label: Cupos disponibles
+      description: Informe el número máximo de personas que podrías mentorear mensualmente
     validations:
       required: true
 
