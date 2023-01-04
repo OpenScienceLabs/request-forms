@@ -1,14 +1,18 @@
-name: Aplicar para ser Mentor/a en OSL
-description: Request Form for new mentors
-title: "New Mentor: <INFORME TU NOMBRE AQUÍ>"
-labels: [new-mentor]
+name: Aplicar para ser Colaborador/a
+about: Application form to request to be a collaborator in OSL
+title: "NEW CONTRIBUTOR: <INFORME TU NOMBRE AQUÍ>"
+labels: [new-collaborator]
 assignees: EverVino, xmnlab
 body:
   - type: markdown
     attributes:
       value: |
-        Para aplicar para ser mentor/a de nuestra comunidad, por favor, llene este formulário.
-        Notas:
+        Estamos muy felices en tu interés en aportar a la comunidad de Open Science Labs
+        y ayudar a muchas personas en todo el mundo.
+
+        Para aplicar para ser colaborador/a en nuestra comunidad, por favor, llene este formulário.
+
+        **Notas**:
         - nuestra comunidad está en discord: https://opensciencelabs.org/discord
         - agrega nuestro calendario público de nuestras reuniones semanales a tu google calendar:
           https://opensciencelabs.org/calendar
@@ -62,6 +66,13 @@ body:
     validations:
       required: true
 
+  - type: input
+    attributes:
+      label: Idiomas
+      description: Informe los idiomas que sabes
+    validations:
+      required: true
+
   - type: textarea
     id: bio
     attributes:
@@ -70,18 +81,44 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: areas
+  - type: textarea
+    id: bio
     attributes:
-      label: Áreas de interés para las mentorías
-      description: Informe las áreas de interés para las mentorías separadas por coma
+      label: ¿Por qué quiero colaborar a la comunidad OSL?
+      description: resumen sobre porqué quieres colaborar a la comunidad OSL
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
+    id: area
     attributes:
-      label: Idiomas disponible para las mentorías
-      description: Informe los idiomas en los cuales puedes dar las mentorías
+      label: Área de interés
+      description: ¿En qué áreas te gustaría colaborar?
+      multiple: true
+      options:
+        - DevOps
+        - Creación de Artículos (blog)
+        - Producción de Videos (youtube)
+        - Community Management
+        - Social Media
+        - Diversidad, Equidad e Inclusión
+        - Organización de Eventos
+        - Documentación
+        - Mentoría
+        - Gestión de Proyectos
+        - Fund raising
+    validations:
+      required: true
+
+  - type: dropdown
+    id: availability
+    attributes:
+      label: Horas semanales disponibles para dedicarme a la comunidad OSL
+      description: Horas semanales disponibles para dedicarme a la comunidad OSL
+      options:
+        - 2 horas semanales
+        - 4 horas semanales
+        - 6+ horas semanales
     validations:
       required: true
 
