@@ -9,7 +9,7 @@ body:
       value: |
         Si quieres solicitar mentoría, por favor, llene este formulário.
         Notas:
-        - nuestra comunidad está en discord:  http://discord.opensciencelabs.org
+        - nuestra comunidad está en discord:  https://opensciencelabs.org/discord
 
   - type: input
     id: email
