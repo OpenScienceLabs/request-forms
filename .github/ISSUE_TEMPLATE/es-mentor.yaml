@@ -1,0 +1,77 @@
+name: Convocatoria a Mentores/as
+description: Request Form for mentors
+title: "New Mentor: <INFORME TU NOMBRE AQUÍ>"
+labels: [new-mentor]
+assignees: EverVino, xmnlab
+body:
+  - type: textarea
+    attributes:
+      label: E-mail
+      description: E-mail
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Nombre Completo
+      description: Nombre Completo
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Áreas de interés para las mentorías
+      description: Informe las áreas de interés para las mentorías separadas por coma
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: URL perfil Linkedin
+      description: URL del perfil en Linkedin
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: URL perfil Twitter
+      description: URL del perfil en Twitter
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: URL perfil GitHub
+      description: URL del perfil en GitHub
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: URL de foto de perfil
+      description: URL del perfil par ser usada en la página de mentores/as
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Bio
+      description: resumen sobre ti, similar a uno publicado en Linkedin o CV
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Código de Conducta
+      description: Aceptar Código de Conducta
+    options:
+      label: He leído el [Código de Conducta](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Guía de Mentorías
+      description: Leer guía de mentorías
+    options:
+      label: He leído la [Guía de Mentorías](https://opensciencelabs.github.io/mentoring/guide-en.html)
+      required: true
