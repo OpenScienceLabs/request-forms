@@ -29,6 +29,15 @@ body:
       required: true
 
   - type: input
+    id: mentors
+    attributes:
+      label: Las(os) Mentoras(os)
+      description: Informe al menos 2 mentoras(es) que te interesaría tener soporte. Verifique en la [lista completa](https://opensciencelabs.org/mentoring/mentors/) si los/las mentores/as tienen disponibilidad.
+      placeholder: ej. Ivan y Evelyn
+    validations:
+      required: true
+
+  - type: input
     id: url-linkedin
     attributes:
       label: URL perfil Linkedin
