@@ -37,6 +37,23 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: mentoring
+    attributes:
+      label: Expectativas
+      description: Cuéntenos un poco sobre sus expectativas sobre la tutoría y lo que espera lograr.
+    validations:
+      required: true
+
+  - type: input
+    id: schedule
+    attributes:
+      label: Horario de la Primera Reunión
+      description: ¿Cuál sería el mejor momento para la primera reunión?
+      placeholder: ej. Lunes 9AM UTC-4
+    validations:
+      required: true
+
   - type: input
     id: url-linkedin
     attributes:
