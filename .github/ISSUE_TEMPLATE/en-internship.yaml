@@ -59,36 +59,37 @@ body:
       description:  Mark the projects you would be most interested in contributing to. You can mark multiple projects. To get more info about project go to https://opensciencelabs.org/programs/internship/
       options:
         - label: scicookie
-        - required: False
+        
         - label: makim
-        - required: False
+        
         - label: containers-sugar
-        - required: False
+        
         - label: github-actions-chatgpt-pr-reviewer
-        - required: False
+        
         - label: semantic-release-pr-title-check
-        - required: False
+        
         - label: satellite-weather-downloader
-        - required: False
+        
         - label: CrawlClima
-        - required: False
+        
         - label: dowloader-app
-        - required: False
+        
         - label: conda-forge-warning
-        - required: False
+        
         - label: pyreaddbc
-        - required: False
+        
         - label: ghreport
-        - required: False
+        
         - label: gh-check-pr-is-updated
-        - required: False
+        
         - label: github-actions-self-hosted-runner
-        - required: False
+        
         - label: ghreport
-        - required: False
+        
         - label: ghreport
         - required: False
         
+
   - type: checkboxes
     id: coc-accepting
     attributes:
