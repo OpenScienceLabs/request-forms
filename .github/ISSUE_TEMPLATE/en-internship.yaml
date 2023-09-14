@@ -52,8 +52,7 @@ body:
       description: We want to have your CV in our database. Please send it to opensciencelabs@gmail.com in pdf format.
       options:
         - label: I have sent my CV to opensciencelabs@gmail.com
-      validations:
-        required: true
+          required: true
 
 
 
@@ -64,6 +63,5 @@ body:
       description: Accept the Code of Conduct
       options:
         - label: I have read the [Code of Conduct](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo
-      validations:
-        required: true
+          required: true
 
