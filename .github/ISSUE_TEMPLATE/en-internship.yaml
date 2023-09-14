@@ -41,7 +41,9 @@ body:
     attributes:
       label: Bio
       description: A brief summary about yourself, similar to the one you have in the summary of your CV or LinkedIn profile.
+    validations:
       required: true
+  
 
   - type: checkboxes
     id: cv-send
@@ -50,7 +52,8 @@ body:
       description: We want to have your CV in our database. Please send it to opensciencelabs@gmail.com in pdf format.
       options:
         - label: I have sent my CV to opensciencelabs@gmail.com
-          required: true
+      validations:
+        required: true
 
 
 
@@ -61,5 +64,6 @@ body:
       description: Accept the Code of Conduct
       options:
         - label: I have read the [Code of Conduct](https://opensciencelabs.github.io/coc/coc-es.html) y estoy de acuerdo
-          required: true
+      validations:
+        required: true
 
