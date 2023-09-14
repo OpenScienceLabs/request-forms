@@ -61,7 +61,7 @@ body:
       options:
         - scicookie
         - makim
-          required: False
+          
 
   - type: checkboxes
     id: coc-accepting
