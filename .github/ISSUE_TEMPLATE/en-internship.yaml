@@ -52,15 +52,7 @@ body:
         - label: I have sent my CV to opensciencelabs@gmail.com
           required: true
 
-  - type: checkboxes
-    id: fields-knowledge
-    attributes:
-      label: What projects are you interested in?
-      description:  Mark the projects you would be most interested in contributing to. You can mark multiple projects. To get more info about project go to https://opensciencelabs.org/programs/internship/
-      options:
-        - label: scicookie
-        - required: False
-        
+
 
   - type: checkboxes
     id: coc-accepting
