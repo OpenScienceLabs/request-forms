@@ -43,51 +43,51 @@ body:
       description: A brief summary about yourself, similar to the one you have in the summary of your CV or LinkedIn profile.
       required: true
 
-- type: checkboxes
-    id: cv-send
-    attributes:
-      label: Send your CV
-      description: We want to have your CV in our database. Please send it to opensciencelabs@gmail.com in pdf format.
-      options:
-        - label: I have sent my CV to opensciencelabs@gmail.com
-          required: true
+  - type: checkboxes
+      id: cv-send
+      attributes:
+        label: Send your CV
+        description: We want to have your CV in our database. Please send it to opensciencelabs@gmail.com in pdf format.
+        options:
+          - label: I have sent my CV to opensciencelabs@gmail.com
+            required: true
 
-- type: checkboxes
-    id: fields-knowledge
-    attributes:
-      label: What projects are you interested in?
-      description:  Mark the projects you would be most interested in contributing to. You can mark multiple projects. To get more info about project go to https://opensciencelabs.org/programs/internship/
-      options:
-        - label: scicookie
-        
-        - label: makim
-        
-        - label: containers-sugar
-        
-        - label: github-actions-chatgpt-pr-reviewer
-        
-        - label: semantic-release-pr-title-check
-        
-        - label: satellite-weather-downloader
-        
-        - label: CrawlClima
-        
-        - label: dowloader-app
-        
-        - label: conda-forge-warning
-        
-        - label: pyreaddbc
-        
-        - label: ghreport
-        
-        - label: gh-check-pr-is-updated
-        
-        - label: github-actions-self-hosted-runner
-        
-        - label: ghreport
-        
-        - label: ghreport
-        - required: False
+  - type: checkboxes
+      id: fields-knowledge
+      attributes:
+        label: What projects are you interested in?
+        description:  Mark the projects you would be most interested in contributing to. You can mark multiple projects. To get more info about project go to https://opensciencelabs.org/programs/internship/
+        options:
+          - label: scicookie
+          
+          - label: makim
+          
+          - label: containers-sugar
+          
+          - label: github-actions-chatgpt-pr-reviewer
+          
+          - label: semantic-release-pr-title-check
+          
+          - label: satellite-weather-downloader
+          
+          - label: CrawlClima
+          
+          - label: dowloader-app
+          
+          - label: conda-forge-warning
+          
+          - label: pyreaddbc
+          
+          - label: ghreport
+          
+          - label: gh-check-pr-is-updated
+          
+          - label: github-actions-self-hosted-runner
+          
+          - label: ghreport
+          
+          - label: ghreport
+          - required: False
         
 
   - type: checkboxes
