@@ -61,7 +61,17 @@ body:
       options:
         - label: scicookie
         - label: makim
-          
+        - label: containers-sugar
+        - label: github-actions-chatgpt-pr-reviewer
+        - label: semantic-release-pr-title-check
+        - label: satellite-weather-downloader
+        - label: CrawlClima
+        - label: dowloader-app
+        - label: conda-forge-warning
+        - label: pyreaddbc
+        - label: ghreport
+        - label: gh-check-pr-is-updated
+        - label: github-actions-self-hosted-runner
 
   - type: checkboxes
     id: coc-accepting
