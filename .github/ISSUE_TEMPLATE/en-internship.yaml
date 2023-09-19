@@ -63,31 +63,31 @@ body:
       options:
         - label: scicookie https://github.com/osl-incubator/scicookie
           description: SciCookie is a template developed by Open Science Labs that creates projects from project templates and is based on Cookieninja A Cookiecutter Fork command-line utility. 
-        - label: [makim](https://github.com/osl-incubator/makim)
+        - label: makim https://github.com/osl-incubator/makim
           description: Makim is based on make and focus on improve the way to define targets and dependencies. Instead of using the Makefile format, it uses yaml format
-        - label: [containers-sugar](https://github.com/osl-incubator/containers-sugar)
+        - label: containers-sugar https://github.com/osl-incubator/containers-sugar
           description: The idea of this project is to organize your stack of containers, gathering some useful scripts and keeping this information centralized in a configuration file. So the command line would be very simple.
-        - label: [github-actions-chatgpt-pr-reviewer](https://github.com/osl-incubator/github-actions-chatgpt-pr-reviewer)
+        - label: github-actions-chatgpt-pr-reviewer https://github.com/osl-incubator/github-actions-chatgpt-pr-reviewer
           description: This GitHub actions uses OpenAI ChatGPT in order to review the changes presented in a PR and will recommend improvements.
-        - label: [semantic-release-pr-title-check](https://github.com/osl-incubator/semantic-release-pr-title-check)
+        - label: semantic-release-pr-title-check https://github.com/osl-incubator/semantic-release-pr-title-check
           description: Checks for Angular commit message format in the Pull Request Title.
-        - label: [satellite-weather-downloader](https://github.com/osl-incubator/satellite-weather-downloader)
+        - label: satellite-weather-downloader https://github.com/osl-incubator/satellite-weather-downloader
           description: SWD is a system for downloading, transforming and analysing Copernicus weather data using Xarray. It consists in two major apps, satellite_downloader and satellite_weather.
-        - label: [CrawlClima](https://github.com/osl-incubator/CrawlClima)
+        - label: CrawlClima https://github.com/osl-incubator/CrawlClima
           description: This package contains the PEGATWEETS and PEGATEMPERATURA modules for automatically capturing tweets and weather data.
-        - label: [dowloader-app](https://github.com/osl-incubator/downloader-app)
+        - label: dowloader-app https://github.com/osl-incubator/downloader-app
           description: A shapefiles downloader.
-        - label: [conda-forge-warning](https://github.com/osl-incubator/conda-forge-warning)
+        - label: conda-forge-warning https://github.com/osl-incubator/conda-forge-warning
           description: Conda-Forge Warning aims to present conda-forge package without maintenance
-        - label: [pyreaddbc](https://github.com/osl-incubator/pyreaddbc)
+        - label: pyreaddbc https://github.com/osl-incubator/pyreaddbc
           description: pyreaddbc is a Python library for working with DBase database file. Legacy systems from the Brazilian Ministry of Health still uses DBF and DBC formats to Publicize data.
-        - label: [ghreport](https://github.com/osl-incubator/ghreport)
+        - label: ghreport https://github.com/osl-incubator/ghreport
           description: A GitHub Report tool.
-        - label: [gh-check-pr-is-updated](https://github.com/osl-incubator/gh-check-pr-is-updated)
+        - label: gh-check-pr-is-updated https://github.com/osl-incubator/gh-check-pr-is-updated
           description: This GitHub actions aims to check if the current PR's branch is updated on top of the upstream branch.
-        - label: [github-actions-self-hosted-runner](https://github.com/osl-incubator/github-actions-self-hosted-runner)
+        - label: github-actions-self-hosted-runner https://github.com/osl-incubator/github-actions-self-hosted-runner
           description: Dockerfile for the creation of a GitHub Actions runner image to be deployed dynamically.
-        - label: [fqlearn](https://github.com/osl-pocs/mass-transfer-py)
+        - label: fqlearn https://github.com/osl-pocs/mass-transfer-py
           description: A graphic solver tool to teach mass transfer and thermodynamics.
 
   - type: checkboxes
