@@ -61,8 +61,8 @@ body:
       label: What projects are you interested in?
       description:  Mark the projects you would be most interested in contributing to. You can mark multiple projects. To get more info about project go to https://opensciencelabs.org/programs/internship/
       options:
-        - label: scicookie https://github.com/osl-incubator/scicookie SciCookie is a template developed by Open Science Labs that creates projects from project templates and is based on Cookieninja A Cookiecutter Fork command-line utility. 
-        - label: makim https://github.com/osl-incubator/makim Makim is based on make and focus on improve the way to define targets and dependencies. Instead of using the Makefile format, it uses yaml format
+        - label: scicookie, SciCookie is a template developed by Open Science Labs that creates projects from project templates and is based on Cookieninja A Cookiecutter Fork command-line utility. (https://github.com/osl-incubator/scicookie)
+        - label: makim, Makim is based on make and focus on improve the way to define targets and dependencies. Instead of using the Makefile format, it uses yaml format (https://github.com/osl-incubator/makim)
         - label: containers-sugar https://github.com/osl-incubator/containers-sugar The idea of this project is to organize your stack of containers, gathering some useful scripts and keeping this information centralized in a configuration file. So the command line would be very simple.
         - label: github-actions-chatgpt-pr-reviewer https://github.com/osl-incubator/github-actions-chatgpt-pr-reviewer This GitHub actions uses OpenAI ChatGPT in order to review the changes presented in a PR and will recommend improvements.
         - label: semantic-release-pr-title-check https://github.com/osl-incubator/semantic-release-pr-title-check Checks for Angular commit message format in the Pull Request Title.
