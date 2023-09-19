@@ -61,8 +61,8 @@ body:
       label: What projects are you interested in?
       description:  Mark the projects you would be most interested in contributing to. You can mark multiple projects. To get more info about project go to https://opensciencelabs.org/programs/internship/
       options:
-        - label: scicookie https://github.com/osl-incubator/scicookie 
-          description: SciCookie is a template developed by Open Science Labs that creates projects from project templates and is based on Cookieninja A Cookiecutter Fork command-line utility. 
+        - label: [scicookie](https://github.com/osl-incubator/scicookie) 
+          
         - label: [makim](https://github.com/osl-incubator/makim)
           description: Makim is based on make and focus on improve the way to define targets and dependencies. Instead of using the Makefile format, it uses yaml format
         - label: [containers-sugar](https://github.com/osl-incubator/containers-sugar)
