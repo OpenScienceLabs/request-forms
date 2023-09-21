@@ -75,7 +75,8 @@ body:
         - label: gh-check-pr-is-updated. This GitHub actions aims to check if the current PR's branch is updated on top of the upstream branch. [Repository](https://github.com/osl-incubator/gh-check-pr-is-updated)
         - label: github-actions-self-hosted-runner. Dockerfile for the creation of a GitHub Actions runner image to be deployed dynamically. [Repository](https://github.com/osl-incubator/github-actions-self-hosted-runner)
         - label: fqlearn. A graphic solver tool to teach mass transfer and thermodynamics.[Repository](https://github.com/osl-pocs/mass-transfer-py)
-
+        - label: pydatastructs. A project that aims to be a Python package for various data structures and algorithms (including their parallel implementations).[Repository](https://github.com/codezonediitj/pydatastructs/)
+        
   - type: checkboxes
     id: coc-accepting
     attributes:
