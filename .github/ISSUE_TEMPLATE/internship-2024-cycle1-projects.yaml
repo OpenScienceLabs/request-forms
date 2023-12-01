@@ -33,25 +33,26 @@ body:
   - type: input
     id: organization_name
     attributes:
-      label: Organization/Project name
-      description: The Organization/Project Name
-      placeholder: "ex: My Organization Name"
+      label: Organization/Project Name
+      description: Enter the name of your organization or project.
+      placeholder: "e.g., My Organization Name"
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: organization_url
     attributes:
-      label: Organization/Project webpage URL
-      description: Organization/Project webpage URL
+      label: Organization/Project Webpage URL
+      description: Provide the URL of your organization or project's webpage.
+      placeholder: "e.g., http://www.myorganization.com"
     validations:
       required: true
 
   - type: textarea
     id: organization_intro
     attributes:
-      label: Organization/Project Intro
-      description: A short description about Organization/Project
+      label: Organization/Project Introduction
+      description: Write a short introduction about your organization or project.
     validations:
       required: true
 
@@ -60,57 +61,57 @@ body:
     attributes:
       label: Organization/Project Summary
       description: |
-        Describe your Organization/Project: purpose, usage, etc
+        Detail the purpose, usage, and key aspects of your organization or project.
+        Include details like mission, goals, and key activities.
     validations:
       required: true
 
   - type: textarea
     id: organization_organization
     attributes:
-      label: Organization/Project Organization
+      label: Organization/Project Structure
       description: |
-        Describe your Organization/Project:
-          internal organization, members, audience, etc
+        Describe the internal structure, members, and target audience of your organization or project.
+        Include information on organizational hierarchy, member roles, and audience demographics.
     validations:
       required: true
 
   - type: input
     id: applicant_name
     attributes:
-      label: Applicant name
-      description: Your full name
+      label: Applicant's Full Name
+      description: Provide your full name.
     validations:
       required: true
 
   - type: input
     id: email
     attributes:
-      label: E-mail
-      description: E-mail
-      placeholder: ex. email@example.com
+      label: Applicant's Email
+      description: Enter your email address.
+      placeholder: e.g., email@example.com
     validations:
       required: true
 
   - type: checkboxes
     id: coc_accepting
     attributes:
-      label: Code of Conduct
-      description: Accept the Code of Conduct
+      label: Code of Conduct Agreement
+      description: Confirm your agreement with the Code of Conduct.
       options:
         - label: |
-            I have read the
-            [Code of Conduct](https://opensciencelabs.org/guidelines/coc/)
-            and I agree.
+            I have read and agree to the
+            [Code of Conduct](https://opensciencelabs.org/guidelines/coc/).
     validations:
       required: true
 
   - type: input
     id: project_idea_url
     attributes:
-      label: Projects Ideas document link
+      label: Project Ideas Document Link
       description: |
-        The url for the proposal document for the project ideas. Check this
-        example as a reference:
-        https://opensciencelabs.org/programs/internship/templates/projects-ideas/
+        Provide the URL for your project ideas proposal document. Refer to this
+        [example](https://opensciencelabs.org/programs/internship/templates/projects-ideas/)
+        for guidance.
     validations:
       required: true
