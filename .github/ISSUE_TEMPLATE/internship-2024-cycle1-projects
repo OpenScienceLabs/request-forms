@@ -1,0 +1,103 @@
+name: OSL Internship program 2024 (1st Cycle) - Projects Ideas
+description: Apply your projects ideas for the OSL Intership program 2024 (1st Cycle)
+title: "Organization/Project name: <Insert here the name of your organization/project>"
+labels: [internship, internship-2024-1, internship-project]
+assignees: EverVino, xmnlab
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To apply your projects ideas for the OSL Internship 2024 (1st Cycle),
+        please fill this current form.
+
+        You should be a core maintainer of the projects you list here, in order to apply them for the internship program.
+        First, please read the the Internship Program documentation:
+          https://opensciencelabs.org/programs/internship/
+
+        All projects should have a Code of Conduct, and should be under any of the OSI Open Source Approved Licenses (https://opensource.org/licenses/).
+
+        You can use this document as a reference for filling this form:
+        https://github.com/OpenScienceLabs/grant-proposals/blob/main/gsoc/2023/osl-projects-ideas.md.
+        This was the Projects Ideas we wrote for GSoC, and we are using the same format for
+        OSL Internship Program.
+
+        Links of Interesting:
+        - Join our discord server: https://opensciencelabs.org/discord
+        - Follow-us in our social media:
+          - https://twitter.com/opensciencelabs
+          - https://www.youtube.com/@opensciencelabs
+          - https://www.linkedin.com/company/open-science-labs
+
+  - type: input
+    id: organization_name
+    attributes:
+      label: Organization/Project name
+      description: The Organization/Project Name
+      placeholder: ex: My Organization Name
+    validations:
+      required: true
+
+  - type: textarea
+    id: organization_url
+    attributes:
+      label: Organization/Project webpage URL
+      description: Organization/Project webpage URL
+    validations:
+      required: true
+
+  - type: textarea
+    id: organization_intro
+    attributes:
+      label: Organization/Project Intro
+      description: A short description about Organization/Project
+    validations:
+      required: true
+
+  - type: textarea
+    id: organization_summary
+    attributes:
+      label: Organization/Project Summary
+      description: Describe your Organization/Project: purpose, usage, etc
+    validations:
+      required: true
+
+  - type: textarea
+    id: organization_organization
+    attributes:
+      label: Organization/Project Organization
+      description: Describe your Organization/Project: internal organization, members, audience, etc
+    validations:
+      required: true
+
+  - type: input
+    id: applicant_name
+    attributes:
+      label: Applicant name
+      description: Your full name
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: E-mail
+      description: E-mail
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: coc_accepting
+    attributes:
+      label: Code of Conduct
+      description: Accept the Code of Conduct
+      options:
+        - label: I have read the [Code of Conduct](https://opensciencelabs.org/guidelines/coc/) and I agree.
+          required: true
+
+  - type: input
+    id: project_idea_url
+    attributes:
+      label: Projects Ideas document link
+      description: The url for the proposal document for the project ideas. Check this example as a reference: https://opensciencelabs.org/programs/internship/templates/projects-ideas/
+      required: true
