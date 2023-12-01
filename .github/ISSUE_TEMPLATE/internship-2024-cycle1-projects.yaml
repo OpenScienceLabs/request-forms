@@ -101,7 +101,8 @@ body:
             I have read the
             [Code of Conduct](https://opensciencelabs.org/guidelines/coc/)
             and I agree.
-          required: true
+    validations:
+      required: true
 
   - type: input
     id: project_idea_url
@@ -111,4 +112,5 @@ body:
         The url for the proposal document for the project ideas. Check this
         example as a reference:
         https://opensciencelabs.org/programs/internship/templates/projects-ideas/
+    validations:
       required: true
