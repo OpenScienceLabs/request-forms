@@ -35,7 +35,7 @@ body:
     attributes:
       label: Organization/Project name
       description: The Organization/Project Name
-      placeholder: ex: My Organization Name
+      placeholder: "ex: My Organization Name"
     validations:
       required: true
 
