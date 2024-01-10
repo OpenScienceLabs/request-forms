@@ -1,0 +1,46 @@
+name: Apply for an OSL Internship Program
+description: Request Form for new interns
+title: "New Intern: [Insert your name]"
+labels: [new-intern]
+assignees: EverVino, xmnlab
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To apply for the internship, please fill out the form below.
+
+        Make sure you have read our
+        [Call for Interns](https://opensciencelabs.org/blog/call-for-interns-2024-01/)
+        for detailed instructions and information about the program.
+
+        Additionally, we encourage you to join our community on Discord:
+        [OSL Discord](https://opensciencelabs.org/discord).
+        This is where we will post further announcements and updates about the
+        Internship Program.
+
+        The Open Science Labs team will provide feedback on your application directly
+        within this GitHub issue. Therefore, make sure to monitor your email for
+        GitHub notifications, or regularly check back on this issue for updates.
+
+  - type: checkboxes
+    id: project-proposal-sent
+    attributes:
+      label: Send your Project Proposal to Open Science Lab email
+      description: |
+        Kindly submit your Project Proposal in PDF format to `opensciencelabs@gmail.com`.
+        For guidance on structuring your proposal, please refer to our template available at:
+        [OSL Intern Proposal Template](https://opensciencelabs.org/programs/internship/templates/intern-proposal/).
+
+      options:
+        - label: I have sent my Project Proposal to opensciencelabs@gmail.com
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: coc-accepting
+    attributes:
+      label: Code of Conduct
+      description: Accept the Code of Conduct
+      options:
+        - label: I have read the [Code of Conduct](https://opensciencelabs.org/guidelines/coc/) and I agree.
+          required: true
