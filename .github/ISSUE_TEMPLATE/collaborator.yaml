@@ -1,0 +1,153 @@
+name: Apply to be a collaborator
+description: Application form to request to be a collaborator at OSL
+title: "NEW CONTRIBUTOR: <Your Name>"
+labels: [new-collaborator]
+assignees: EverVino, xmnlab
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We are very happy about your interest in contributing to the Open Science Labs community
+        and help many people around the world.
+
+        To apply to be a collaborator in our community, please fill out this form.
+
+        **Notes**:
+        - our community is on discord: https://opensciencelabs.org/discord
+        - add our public calendar of our weekly meetings to your google calendar:
+          https://opensciencelabs.org/calendar
+
+  - type: input
+    id: email
+    attributes:
+      label: E-mail
+      description: E-mail
+      placeholder: e.g. email@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: name-full
+    attributes:
+      label: Full Name
+      description: Full Name
+    validations:
+      required: true
+
+  - type: input
+    id: url-linkedin
+    attributes:
+      label: LinkedIn profile URL
+      description: URL of the profile on LinkedIn
+    validations:
+      required: false
+
+  - type: input
+    id: url-twitter
+    attributes:
+      label: Twitter profile URL
+      description: URL of the profile on Twitter
+    validations:
+      required: false
+
+  - type: input
+    id: url-github
+    attributes:
+      label: GitHub profile URL
+      description: URL of the profile on GitHub
+    validations:
+      required: false
+
+  - type: input
+    id: url-photo
+    attributes:
+      label: Profile photo URL
+      description: URL of the profile to be used on the mentors' page
+    validations:
+      required: true
+
+  - type: dropdown
+    id: languages
+    attributes:
+      label: Languages
+      description: Inform the languages you know
+      multiple: true
+      options:
+        - Spanish
+        - English
+        - Portuguese
+        - French
+    validations:
+      required: true
+
+  - type: textarea
+    id: bio
+    attributes:
+      label: Bio
+      description: summary about you, similar to one published on LinkedIn or CV
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do I want to collaborate with the OSL community?
+      description:
+        summary about why you want to collaborate with the OSL community
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of interest
+      description: In which areas would you like to collaborate?
+      multiple: true
+      options:
+        - DevOps
+        - Article Creation (blog)
+        - Video Production (youtube)
+        - Community Management
+        - Social Media
+        - Diversity, Equity, and Inclusion
+        - Event Organization
+        - Documentation
+        - Mentoring
+        - Project Management
+        - Fund raising
+    validations:
+      required: true
+
+  - type: dropdown
+    id: availability
+    attributes:
+      label: Weekly hours available to dedicate to the OSL community
+      description: Weekly hours available to dedicate to the OSL community
+      options:
+        - 2 hours per week
+        - 4 hours per week
+        - 6+ hours per week
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: coc-accepting
+    attributes:
+      label: Code of Conduct
+      description: Accept Code of Conduct
+      options:
+        - label:
+            I have read the [Code of
+            Conduct](https://opensciencelabs.github.io/about/coc) and I agree
+          required: true
+
+  - type: checkboxes
+    id: mentoring-guide-reading
+    attributes:
+      label: Mentoring Guide
+      description: Read mentoring guide
+      options:
+        - label:
+            I have read the [Mentoring
+            Guide](https://opensciencelabs.github.io/mentoring/guide-en.html)
+          required: true
