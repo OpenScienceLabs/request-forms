@@ -1,0 +1,114 @@
+name: Apply for Project Affiliation
+description: Application form to request project affiliation with OSL
+title: "PROJECT AFFILIATION: <Project Name>"
+labels: [project-affiliation]
+assignees: EverVino, xmnlab
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in affiliating your project with the
+        Open Science Labs (OSL).
+
+        This form is intended for project authors or authorized representatives
+        to apply for project affiliation.
+
+        If your project does not already have a Code of Conduct, we recommend
+        adopting one from https://www.contributor-covenant.org/ to ensure
+        your project aligns with our community standards.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: The name of your project
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-summary
+    attributes:
+      label: Project Summary
+      description: A summary about your project
+    validations:
+      required: true
+
+  - type: input
+    id: project-repo-url
+    attributes:
+      label: Project Repository URL
+      description: URL of the project repository
+    validations:
+      required: true
+
+  - type: input
+    id: project-license-url
+    attributes:
+      label: Project License Link
+      description: URL link to the project's license
+    validations:
+      required: true
+
+  - type: input
+    id: project-coc-url
+    attributes:
+      label: Code of Conduct Link
+      description: URL link to the project's Code of Conduct
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: authorization
+    attributes:
+      label: Authorization Confirmation
+      description: Confirm your authorization to affiliate this project
+      options:
+        - label:
+            I confirm that I am the author or an authorized representative of
+            this project.
+          required: true
+
+  - type: checkboxes
+    id: project-transfer
+    attributes:
+      label: Project Transfer to OSL Incubator
+      description:
+        Optional - Transfer your project to OSL's incubator organization on
+        GitHub
+      options:
+        - label:
+            I am interested in moving my project to the [OSL
+            Incubator](https://github.com/osl-incubator) organization on GitHub.
+          required: false
+
+  - type: checkboxes
+    id: internship-gsoc-participation
+    attributes:
+      label: Participation in Internship Programs
+      description:
+        Optional - Participate in Internship and/or Google Summer of Code (GSoC)
+        programs with OSL
+      options:
+        - label:
+            I am interested in participating in Internship Programs and/or
+            Google Summer of Code (GSoC) with my project.
+          required: false
+
+  - type: input
+    id: twitter-link
+    attributes:
+      label: Twitter Link
+      description: Optional - Link to the project's Twitter account
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: coc-acceptance
+    attributes:
+      label: OSL Code of Conduct Acceptance
+      description: Accept OSL's Code of Conduct for affiliated projects
+      options:
+        - label:
+            I have read the [Code of
+            Conduct](https://opensciencelabs.github.io/about/coc) and I agree
+          required: true
